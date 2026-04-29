@@ -1,0 +1,20 @@
+approvals_reviewer = "user"
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+model_context_window = 400000
+model_auto_compact_token_limit = 380000
+model_catalog_json = "/home/gary/.codex/model_catalog.json"
+[projects."/home/gary"]
+trust_level = "trusted"
+
+[projects."/home/gary/git/cffex"]
+trust_level = "trusted"
+
+[projects."/home/gary/.codex"]
+trust_level = "trusted"
+
+[tui]
+status_line = ["model-with-reasoning", "current-dir", "model", "project-name", "git-branch", "run-state", "context-remaining", "context-used", "five-hour-limit", "weekly-limit", "codex-version", "context-window-size", "used-tokens", "total-input-tokens", "total-output-tokens", "session-id", "fast-mode", "task-progress"]
+
+[tui.model_availability_nux]
+"gpt-5.5" = 4

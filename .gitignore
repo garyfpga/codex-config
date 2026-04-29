@@ -1,0 +1,37 @@
+# Secrets and machine identity
+auth.json
+installation_id
+
+# Conversation/session history and local state
+history.jsonl
+sessions/
+shell_snapshots/
+memories/
+
+# Logs
+log/
+*.log
+
+# SQLite runtime state
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Caches and generated runtime files
+cache/
+tmp/
+.tmp/
+models_cache.json
+version.json
+.personality_migration
+.codex
+
+# Installed/generated system skills
+skills/.system/
+
+# Local OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
