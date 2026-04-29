@@ -1,4 +1,6 @@
-approvals_reviewer = "user"
+approval_policy = "never"
+approvals_reviewer = "auto_review"
+sandbox_mode = "danger-full-access"
 model = "gpt-5.5"
 model_reasoning_effort = "high"
 model_context_window = 400000
