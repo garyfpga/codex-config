@@ -4,7 +4,7 @@ sandbox_mode = "danger-full-access"
 model = "gpt-5.5"
 model_reasoning_effort = "high"
 model_context_window = 400000
-model_auto_compact_token_limit = 380000
+model_auto_compact_token_limit = 360000
 model_catalog_json = "~/.codex/model_catalog.json"
 plan_mode_reasoning_effort = "high"
 [projects."/home/gary"]
@@ -17,7 +17,7 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [tui]
-status_line = ["model-with-reasoning", "current-dir", "model", "project-name", "run-state", "context-used", "task-progress", "five-hour-limit", "weekly-limit", "codex-version", "context-window-size", "session-id", "fast-mode"]
+status_line = ["model-with-reasoning", "current-dir", "project-name", "run-state", "context-used", "task-progress", "five-hour-limit", "weekly-limit", "codex-version", "context-window-size", "session-id", "fast-mode"]
 
 [tui.model_availability_nux]
 "gpt-5.5" = 4
