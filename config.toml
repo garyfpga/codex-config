@@ -17,7 +17,11 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [tui]
-status_line = ["model-with-reasoning", "current-dir", "model", "project-name", "git-branch", "run-state", "context-remaining", "context-used", "five-hour-limit", "weekly-limit", "codex-version", "context-window-size", "used-tokens", "total-input-tokens", "total-output-tokens", "session-id", "fast-mode", "task-progress"]
+status_line = ["model-with-reasoning", "current-dir", "model", "project-name", "run-state", "context-used", "task-progress", "five-hour-limit", "weekly-limit", "codex-version", "context-window-size", "session-id", "fast-mode"]
 
 [tui.model_availability_nux]
 "gpt-5.5" = 4
+
+[tui.keymap.editor]
+insert_newline = ["ctrl-j", "ctrl-m", "enter", "shift-enter", "alt-enter"]
+
