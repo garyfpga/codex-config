@@ -1,7 +1,7 @@
 name = "spark"
 description = "General-purpose subagent for broad exploration, research, implementation support, and verification."
 model = "gpt-5.3-codex-spark"
-model_reasoning_effort = "xhigh"
+model_reasoning_effort = "high"
 web_search = "live"
 
 developer_instructions = """
