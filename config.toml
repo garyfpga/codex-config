@@ -20,7 +20,7 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [tui]
-status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "task-progress", "five-hour-limit", "weekly-limit", "codex-version", "context-window-size", "session-id", "fast-mode"]
+status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "context-remaining", "task-progress", "five-hour-limit", "weekly-limit", "codex-version", "context-window-size", "session-id", "fast-mode"]
 
 [tui.model_availability_nux]
 "gpt-5.5" = 4
@@ -28,6 +28,8 @@ status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used
 [tui.keymap.editor]
 insert_newline = ["ctrl-j", "ctrl-m", "enter", "shift-enter", "alt-enter"]
 
+[agents]
+max_threads = 30
+
 [plugins."superpowers@openai-curated"]
 enabled = true
-
