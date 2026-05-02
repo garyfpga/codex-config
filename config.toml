@@ -5,7 +5,6 @@ model = "gpt-5.5"
 model_reasoning_effort = "high"
 model_context_window = 400000
 model_auto_compact_token_limit = 360000
-model_catalog_json = "~/.codex/model_catalog.json"
 plan_mode_reasoning_effort = "high"
 [projects."/home/gary"]
 trust_level = "trusted"
