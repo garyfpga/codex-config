@@ -7,6 +7,10 @@ model_context_window = 400000
 model_auto_compact_token_limit = 360000
 model_catalog_json = "~/.codex/model_catalog.json"
 plan_mode_reasoning_effort = "high"
+
+[features]
+multi_agent = true
+
 [projects."/home/gary"]
 trust_level = "trusted"
 
@@ -30,6 +34,3 @@ insert_newline = ["ctrl-j", "ctrl-m", "enter", "shift-enter", "alt-enter"]
 
 [agents]
 max_threads = 30
-
-[plugins."superpowers@openai-curated"]
-enabled = true
