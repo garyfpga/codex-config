@@ -35,3 +35,6 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# session
+session_index.jsonl
