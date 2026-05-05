@@ -2,7 +2,7 @@ approval_policy = "never"
 approvals_reviewer = "auto_review"
 sandbox_mode = "danger-full-access"
 model = "gpt-5.5"
-model_reasoning_effort = "high"
+model_reasoning_effort = "xhigh"
 plan_mode_reasoning_effort = "high"
 
 [features]
