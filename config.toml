@@ -6,7 +6,7 @@ model_reasoning_effort = "xhigh"
 plan_mode_reasoning_effort = "xhigh"
 
 model_context_window = 400000
-model_auto_compact_token_limit = 330000
+model_auto_compact_token_limit = 310000
 model_catalog_json = "~/.codex/model_catalog.json"
 
 [features]
@@ -25,6 +25,9 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [projects."/home/scpuser/Gary/ocg-test-bed"]
+trust_level = "trusted"
+
+[projects."/home/gary/git/ocg-test-bed"]
 trust_level = "trusted"
 
 [tui]
