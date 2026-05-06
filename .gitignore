@@ -11,6 +11,7 @@ memories/
 # Logs
 log/
 *.log
+*.log.jsonl
 
 # SQLite runtime state
 *.sqlite
@@ -18,6 +19,7 @@ log/
 *.sqlite-wal
 
 # Caches and generated runtime files
+__pycache__/
 cache/
 tmp/
 .tmp/

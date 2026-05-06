@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "lazy": {
+      "type": "boolean",
+      "description": "True only when the assistant chose or proposed a reduced, easier, stubbed, docs-only, skipped-verification, or otherwise evasive path instead of doing the assigned work."
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "reason": {
+      "type": "string"
+    },
+    "trigger_spans": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "allowed_context": {
+      "type": "string",
+      "description": "Why this is allowed if lazy is false, or an empty string if lazy is true."
+    }
+  },
+  "required": [
+    "lazy",
+    "confidence",
+    "reason",
+    "trigger_spans",
+    "allowed_context"
+  ]
+}

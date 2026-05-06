@@ -10,6 +10,7 @@ plan_mode_reasoning_effort = "xhigh"
 #model_catalog_json = "~/.codex/model_catalog.json"
 
 [features]
+codex_hooks = true
 multi_agent = true
 
 [projects."/home/gary"]

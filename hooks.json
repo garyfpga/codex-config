@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 /home/gary/.codex/hooks/anti_lazy_stop.py",
+            "timeout": 60,
+            "statusMessage": "Checking completion quality"
+          }
+        ]
+      }
+    ]
+  }
+}
