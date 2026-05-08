@@ -34,6 +34,9 @@ trust_level = "trusted"
 [projects."/home/scpuser/.codex"]
 trust_level = "trusted"
 
+[projects."/home/gary/git/fpga_sw"]
+trust_level = "trusted"
+
 [tui]
 status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "context-remaining", "task-progress", "five-hour-limit", "weekly-limit", "codex-version", "context-window-size", "session-id", "fast-mode"]
 
