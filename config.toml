@@ -2,8 +2,8 @@ approval_policy = "never"
 approvals_reviewer = "auto_review"
 sandbox_mode = "danger-full-access"
 model = "gpt-5.5"
-model_reasoning_effort = "high"
-plan_mode_reasoning_effort = "high"
+model_reasoning_effort = "xhigh"
+plan_mode_reasoning_effort = "xhigh"
 
 #model_context_window = 400000
 #model_auto_compact_token_limit = 310000
@@ -39,6 +39,9 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [projects."/home/gary/git/yt-subtitle"]
+trust_level = "trusted"
+
+[projects."/home/gary/bin"]
 trust_level = "trusted"
 
 [tui]
