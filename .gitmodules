@@ -1,4 +1,4 @@
 [submodule "simplepower"]
 	path = simplepower
 	url = git@github.com:garyfpga/simplepower.git
-	branch = workflow/current-session-auto-dispatch
+	branch = feat/three-tier-model-allocation
