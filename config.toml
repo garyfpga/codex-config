@@ -51,7 +51,8 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [tui]
-status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "context-remaining", "task-progress", "five-hour-limit", "weekly-limit", "codex-version", "context-window-size", "session-id", "fast-mode"]
+status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "five-hour-limit", "weekly-limit", "codex-version", "fast-mode"]
+status_line_use_colors = true
 
 [tui.model_availability_nux]
 "gpt-5.5" = 4
@@ -61,3 +62,6 @@ insert_newline = ["ctrl-j", "ctrl-m", "enter", "shift-enter", "alt-enter"]
 
 [agents]
 max_threads = 30
+
+[notice]
+fast_default_opt_out = true
