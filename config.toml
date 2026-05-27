@@ -1,5 +1,5 @@
 approval_policy = "never"
-approvals_reviewer = "auto_review"
+approvals_reviewer = "user"
 sandbox_mode = "danger-full-access"
 model = "gpt-5.5"
 model_reasoning_effort = "xhigh"
@@ -9,10 +9,14 @@ plan_mode_reasoning_effort = "xhigh"
 #model_auto_compact_token_limit = 310000
 #model_catalog_json = "~/.codex/model_catalog.json"
 
+remote_compaction_v2 = true
+responses_websocket_response_processed = true
+
 [features]
 hooks = true
 multi_agent = true
 remote_connections = true
+terminal_resize_reflow = true
 
 [projects."/home/gary"]
 trust_level = "trusted"
@@ -54,6 +58,12 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [projects."/home/scpuser/Gary/ocg_server"]
+trust_level = "trusted"
+
+[projects."/home/gary/cffex/cache"]
+trust_level = "trusted"
+
+[projects."/home/gary/cffex/markout"]
 trust_level = "trusted"
 
 [tui]
