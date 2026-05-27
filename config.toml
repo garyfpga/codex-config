@@ -50,6 +50,9 @@ trust_level = "trusted"
 [projects."/home/gary/git/hkex_python"]
 trust_level = "trusted"
 
+[projects."/home/scpuser/network_scripts"]
+trust_level = "trusted"
+
 [tui]
 status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "five-hour-limit", "weekly-limit", "codex-version", "fast-mode"]
 status_line_use_colors = true
