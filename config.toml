@@ -11,6 +11,7 @@ plan_mode_reasoning_effort = "xhigh"
 
 remote_compaction_v2 = true
 responses_websocket_response_processed = true
+service_tier = "default"
 
 [features]
 hooks = true
@@ -64,6 +65,9 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [projects."/home/gary/cffex/markout"]
+trust_level = "trusted"
+
+[projects."/home/gary/git/codex"]
 trust_level = "trusted"
 
 [tui]
