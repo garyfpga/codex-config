@@ -1,16 +1,10 @@
 approval_policy = "never"
 approvals_reviewer = "user"
 sandbox_mode = "danger-full-access"
-model = "gpt-5.5"
-model_reasoning_effort = "xhigh"
+model = "gpt-5.3-codex-spark"
+model_reasoning_effort = "high"
 plan_mode_reasoning_effort = "xhigh"
 
-#model_context_window = 400000
-#model_auto_compact_token_limit = 310000
-#model_catalog_json = "~/.codex/model_catalog.json"
-
-remote_compaction_v2 = true
-responses_websocket_response_processed = true
 service_tier = "default"
 
 [features]
