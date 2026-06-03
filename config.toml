@@ -64,6 +64,9 @@ trust_level = "trusted"
 [projects."/home/gary/git/codex"]
 trust_level = "trusted"
 
+[projects."/home/gary/git/hkex_fpga"]
+trust_level = "trusted"
+
 [tui]
 status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "five-hour-limit", "weekly-limit", "codex-version", "fast-mode"]
 status_line_use_colors = true
