@@ -69,6 +69,9 @@ trust_level = "trusted"
 [projects."/home/gary/git/hkex_fpga"]
 trust_level = "trusted"
 
+[projects."/home/gary/git/codex-compact-fix"]
+trust_level = "trusted"
+
 [tui]
 status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "five-hour-limit", "weekly-limit", "codex-version", "fast-mode"]
 status_line_use_colors = true
@@ -84,3 +87,8 @@ max_threads = 30
 
 [notice]
 fast_default_opt_out = true
+
+[remote_compact]
+max_attempts = 3
+attempt_timeout_sec = 180
+tcp_keepalive_interval_ms = 1000
