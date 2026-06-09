@@ -14,7 +14,7 @@ hooks = true
 multi_agent = true
 remote_connections = true
 terminal_resize_reflow = true
-remote_compaction_v2 = true
+#remote_compaction_v2 = true
 
 [projects."/home/gary"]
 trust_level = "trusted"
@@ -92,7 +92,7 @@ max_threads = 30
 [notice]
 fast_default_opt_out = true
 
-[remote_compact]
-max_attempts = 3
-attempt_timeout_sec = 180
-tcp_keepalive_interval_ms = 1000
+#[remote_compact]
+#max_attempts = 3
+#attempt_timeout_sec = 180
+#tcp_keepalive_interval_ms = 1000
