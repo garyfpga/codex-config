@@ -14,6 +14,7 @@ hooks = true
 multi_agent = true
 remote_connections = true
 terminal_resize_reflow = true
+remote_compaction_v2 = true
 
 [projects."/home/gary"]
 trust_level = "trusted"
