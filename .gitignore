@@ -23,6 +23,7 @@ __pycache__/
 cache/
 tmp/
 .tmp/
+packages/
 models_cache.json
 version.json
 .personality_migration
