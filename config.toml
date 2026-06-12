@@ -7,8 +7,6 @@ plan_mode_reasoning_effort = "xhigh"
 
 service_tier = "default"
 
-stream_idle_timeout_ms = 900000
-
 [features]
 hooks = true
 multi_agent = true
@@ -79,6 +77,9 @@ trust_level = "trusted"
 [projects."/home/scpuser/Gary/ntl_checker"]
 trust_level = "trusted"
 
+[projects."/home/scpuser/Gary/yhw_driver"]
+trust_level = "trusted"
+
 [tui]
 status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "five-hour-limit", "weekly-limit", "codex-version", "fast-mode"]
 status_line_use_colors = true
@@ -95,7 +96,7 @@ max_threads = 30
 [notice]
 fast_default_opt_out = true
 
-#[remote_compact]
-#max_attempts = 3
-#attempt_timeout_sec = 180
-#tcp_keepalive_interval_ms = 1000
+[remote_compact]
+max_attempts = 2
+attempt_timeout_sec = 600
+tcp_keepalive_interval_ms = 1000
