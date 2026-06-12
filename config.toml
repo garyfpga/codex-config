@@ -76,6 +76,9 @@ trust_level = "trusted"
 [projects."/home/scpuser/Gary/ntl_raw"]
 trust_level = "trusted"
 
+[projects."/home/scpuser/Gary/ntl_checker"]
+trust_level = "trusted"
+
 [tui]
 status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "five-hour-limit", "weekly-limit", "codex-version", "fast-mode"]
 status_line_use_colors = true
