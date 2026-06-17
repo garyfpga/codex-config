@@ -24,6 +24,7 @@ cache/
 tmp/
 .tmp/
 packages/
+vendor_imports/
 models_cache.json
 version.json
 .personality_migration
