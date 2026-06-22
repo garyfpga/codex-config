@@ -1,6 +1,7 @@
 approval_policy = "never"
 approvals_reviewer = "user"
 sandbox_mode = "danger-full-access"
+dangerously_trust_all_projects = true
 model = "gpt-5.5"
 model_reasoning_effort = "xhigh"
 plan_mode_reasoning_effort = "xhigh"
@@ -11,74 +12,6 @@ service_tier = "default"
 hooks = true
 multi_agent = true
 remote_connections = true
-terminal_resize_reflow = true
-#remote_compaction_v2 = true
-
-[projects."/home/gary"]
-trust_level = "trusted"
-
-[projects."/home/gary/git/cffex"]
-trust_level = "trusted"
-
-[projects."/home/gary/.codex"]
-trust_level = "trusted"
-
-[projects."/home/gary/git/simplepower"]
-trust_level = "trusted"
-
-[projects."/home/scpuser/Gary/ocg-test-bed"]
-trust_level = "trusted"
-
-[projects."/home/gary/git/ocg-test-bed"]
-trust_level = "trusted"
-
-[projects."/home/scpuser/.codex"]
-trust_level = "trusted"
-
-[projects."/home/gary/git/fpga_sw"]
-trust_level = "trusted"
-
-[projects."/home/gary/git/yt-subtitle"]
-trust_level = "trusted"
-
-[projects."/home/gary/bin"]
-trust_level = "trusted"
-
-[projects."/home/gary/git/linux"]
-trust_level = "trusted"
-
-[projects."/home/gary/git/hkex_python"]
-trust_level = "trusted"
-
-[projects."/home/scpuser/network_scripts"]
-trust_level = "trusted"
-
-[projects."/home/scpuser/Gary/ocg_server"]
-trust_level = "trusted"
-
-[projects."/home/gary/cffex/cache"]
-trust_level = "trusted"
-
-[projects."/home/gary/cffex/markout"]
-trust_level = "trusted"
-
-[projects."/home/gary/git/codex"]
-trust_level = "trusted"
-
-[projects."/home/gary/git/hkex_fpga"]
-trust_level = "trusted"
-
-[projects."/home/gary/git/codex-compact-fix"]
-trust_level = "trusted"
-
-[projects."/home/scpuser/Gary/ntl_raw"]
-trust_level = "trusted"
-
-[projects."/home/scpuser/Gary/ntl_checker"]
-trust_level = "trusted"
-
-[projects."/home/scpuser/Gary/yhw_driver"]
-trust_level = "trusted"
 
 [tui]
 status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "five-hour-limit", "weekly-limit", "codex-version", "fast-mode"]
