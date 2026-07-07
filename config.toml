@@ -5,6 +5,7 @@ dangerously_trust_all_projects = true
 model = "gpt-5.5"
 model_reasoning_effort = "xhigh"
 plan_mode_reasoning_effort = "xhigh"
+model_instructions_file = "~/.codex/model-instructions.md"
 
 service_tier = "default"
 
@@ -14,7 +15,7 @@ multi_agent = true
 remote_connections = true
 
 [tui]
-status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "five-hour-limit", "weekly-limit", "codex-version", "fast-mode"]
+status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "five-hour-limit", "weekly-limit", "codex-version", "fast-mode", "context-window-size"]
 status_line_use_colors = true
 
 [tui.model_availability_nux]
@@ -28,6 +29,7 @@ max_threads = 30
 
 [notice]
 fast_default_opt_out = true
+hide_rate_limit_model_nudge = true
 
 [remote_compact]
 max_attempts = 2
