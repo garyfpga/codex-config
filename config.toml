@@ -2,10 +2,10 @@ approval_policy = "never"
 approvals_reviewer = "user"
 sandbox_mode = "danger-full-access"
 dangerously_trust_all_projects = true
-model = "gpt-5.5"
+model = "gpt-5.6-sol"
 model_reasoning_effort = "xhigh"
 plan_mode_reasoning_effort = "xhigh"
-model_instructions_file = "~/.codex/model-instructions.md"
+# model_instructions_file = "~/.codex/model-instructions.md"
 
 service_tier = "default"
 
@@ -15,7 +15,7 @@ multi_agent = true
 remote_connections = true
 
 [tui]
-status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "five-hour-limit", "weekly-limit", "codex-version", "fast-mode", "context-window-size"]
+status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "context-window-size", "five-hour-limit", "weekly-limit", "codex-version", "fast-mode"]
 status_line_use_colors = true
 
 [tui.model_availability_nux]
