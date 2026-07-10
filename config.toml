@@ -3,8 +3,8 @@ approvals_reviewer = "user"
 sandbox_mode = "danger-full-access"
 dangerously_trust_all_projects = true
 model = "gpt-5.6-sol"
-model_reasoning_effort = "xhigh"
-plan_mode_reasoning_effort = "xhigh"
+model_reasoning_effort = "high"
+plan_mode_reasoning_effort = "high"
 # model_instructions_file = "~/.codex/model-instructions.md"
 
 service_tier = "default"
@@ -23,7 +23,7 @@ insert_newline = ["ctrl-j", "ctrl-m", "enter", "shift-enter", "alt-enter"]
 
 [tui.model_availability_nux]
 "gpt-5.5" = 4
-"gpt-5.6-sol" = 2
+"gpt-5.6-sol" = 4
 
 [agents]
 max_threads = 30
