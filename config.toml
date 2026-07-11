@@ -14,9 +14,14 @@ hooks = true
 multi_agent = true
 remote_connections = true
 
+[features.multi_agent_v2]
+hide_spawn_agent_metadata = false
+tool_namespace = "agents"
+
 [tui]
 status_line = ["model-with-reasoning", "current-dir", "run-state", "context-used", "context-window-size", "five-hour-limit", "weekly-limit", "codex-version", "fast-mode"]
 status_line_use_colors = true
+session_picker_view = "dense"
 
 [tui.keymap.editor]
 insert_newline = ["ctrl-j", "ctrl-m", "enter", "shift-enter", "alt-enter"]
