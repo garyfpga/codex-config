@@ -15,3 +15,11 @@
   set_optimize("fastest")
   ```
 - xmake's `fastest` maps to `-O3` for GCC/Clang/NVCC. Do not use `aggressive`/`-Ofast` as the default unless explicitly requested for a specific target.
+
+## Simple Power model configuration
+- Do not define `SIMPLEPOWER_*_MODEL` assignments in `AGENTS.md`.
+- Simple Power starts with `~/.codex/simplepower.toml`, overlays a
+  repository-local `simplepower.toml` per key when present, and lets the four
+  non-empty `SIMPLEPOWER_*_MODEL` environment variables override both files.
+- Keep `use_subagent` and `subagent_model` in `simplepower.toml`; they are not
+  configured through the four model environment variables.
