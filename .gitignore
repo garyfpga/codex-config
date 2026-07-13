@@ -33,6 +33,10 @@ version.json
 # Installed/generated system skills
 skills/.system/
 
+# Local app-server runtime directories
+app-server-control/
+app-server-daemon/
+
 # Local OS/editor noise
 .DS_Store
 Thumbs.db
