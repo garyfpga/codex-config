@@ -6,8 +6,8 @@ dangerously_trust_all_projects = true
 #model_reasoning_effort = "ultra"
 #plan_mode_reasoning_effort = "ultra"
 model = "gpt-5.6-sol"
-model_reasoning_effort = "max"
-plan_mode_reasoning_effort = "max"
+model_reasoning_effort = "xhigh"
+plan_mode_reasoning_effort = "xhigh"
 multi_agent_version_override = "v1"
 
 service_tier = "default"
@@ -32,6 +32,8 @@ insert_newline = ["ctrl-j", "ctrl-m", "enter", "shift-enter", "alt-enter"]
 [tui.model_availability_nux]
 "gpt-5.5" = 4
 "gpt-5.6-sol" = 4
+"gpt-5.6-terra" = 4
+"gpt-5.6-luna" = 4
 
 [agents]
 max_threads = 30
