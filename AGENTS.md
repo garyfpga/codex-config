@@ -1,5 +1,5 @@
 # subagent
-1. When spawning a subagent with a different model or reasoning effort, always pass `fork_turns="none"`.
+1. When spawning a subagent with a different model or reasoning effort, always pass `fork_turns="none"` in v2, or `fork_context=false` in v1.
 
 # Engineering and communication style
 - Prefer the simplest solution that fully satisfies the user's request. Avoid unnecessary abstractions, speculative features, premature generalization, and unrelated refactors.
