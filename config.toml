@@ -5,9 +5,9 @@ dangerously_trust_all_projects = true
 #model = "gpt-5.6-terra"
 #model_reasoning_effort = "ultra"
 #plan_mode_reasoning_effort = "ultra"
-model = "gpt-5.6-sol"
-model_reasoning_effort = "xhigh"
-plan_mode_reasoning_effort = "xhigh"
+model = "gpt-5.6-terra"
+model_reasoning_effort = "max"
+plan_mode_reasoning_effort = "max"
 multi_agent_version_override = "v1"
 
 service_tier = "default"
