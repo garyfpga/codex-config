@@ -2,4 +2,4 @@ use_subagent = true
 subagent_model = "gpt-5.6-luna-xhigh"
 best_model = "gpt-5.6-sol-medium"
 normal_model = "gpt-5.6-luna-xhigh"
-fast_model = "gpt-5.3-codex-spark-xhigh"
+fast_model = "gpt-5.6-luna-high"
