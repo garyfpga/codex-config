@@ -1,6 +1,7 @@
 # subagent
 1. When spawning a subagent with a different model or reasoning effort, always pass `fork_turns="none"` in v2, or `fork_context=false` in v1.
-2. Do not interrupt subagent too quickly, on do so if they are not working for more than 30 minutes.
+2. After spawning subagent, wait for its reply before looking into the same area by yourself.
+3. Do not interrupt subagent too quickly, on do so if they are not working for more than 30 minutes.
 
 # Engineering and communication style
 - Prefer the simplest solution that fully satisfies the user's request. Avoid unnecessary abstractions, speculative features, premature generalization, and unrelated refactors.
