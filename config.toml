@@ -22,7 +22,7 @@ tool_namespace = "agents"
 
 [tui]
 alternate_screen = "never"
-status_line = ["weekly-limit", "model-with-reasoning", "current-dir", "run-state", "context-used", "context-window-size", "five-hour-limit", "codex-version", "fast-mode"]
+status_line = ["weekly-limit", "model-with-reasoning", "context-used", "current-dir", "run-state", "context-window-size", "five-hour-limit", "codex-version", "fast-mode"]
 status_line_use_colors = true
 session_picker_view = "dense"
 
