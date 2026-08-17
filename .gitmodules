@@ -1,4 +1,4 @@
 [submodule "simplepower"]
 	path = simplepower
 	url = git@github.com:garyfpga/simplepower.git
-	branch = feature/plan-execution-summary
+	branch = feature/skip-quick-verifier
