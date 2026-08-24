@@ -5,7 +5,6 @@ dangerously_trust_all_projects = true
 model = "gpt-5.6-sol"
 model_reasoning_effort = "medium"
 plan_mode_reasoning_effort = "medium"
-multi_agent_version_override = "v1"
 model_verbosity = "low"
 model_reasoning_summary = "none"
 model_context_window = 1000000
@@ -38,7 +37,7 @@ insert_newline = ["ctrl-j", "ctrl-m", "enter", "shift-enter", "alt-enter"]
 "gpt-5.6-luna" = 4
 
 [agents]
-max_threads = 30
+max_concurrent_threads_per_session = 30
 
 [notice]
 fast_default_opt_out = true
@@ -51,3 +50,6 @@ tcp_keepalive_interval_ms = 1000
 
 [mcp_servers.openaiDeveloperDocs]
 url = "https://developers.openai.com/mcp"
+
+[projects."/home/gary/git/codex-compact-fix"]
+trust_level = "trusted"
