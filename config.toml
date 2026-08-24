@@ -53,3 +53,19 @@ url = "https://developers.openai.com/mcp"
 
 [projects."/home/gary/git/codex-compact-fix"]
 trust_level = "trusted"
+
+[projects."/home/gary"]
+trust_level = "trusted"
+
+[projects."/home/gary/git/cffex"]
+trust_level = "trusted"
+
+[projects."/home/gary/git/hkex_fpga"]
+trust_level = "trusted"
+
+[projects."/home/gary/git/ntl_raw"]
+trust_level = "trusted"
+
+[projects."/home/gary/git/hkex_python"]
+trust_level = "trusted"
+
