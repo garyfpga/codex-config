@@ -71,3 +71,10 @@ trust_level = "trusted"
 
 [projects."/home/gary/git/cache-warmer"]
 trust_level = "trusted"
+
+[projects."/home/gary/git/yt-subtitle"]
+trust_level = "trusted"
+
+[projects."/home/gary/git/simplepower"]
+trust_level = "trusted"
+
