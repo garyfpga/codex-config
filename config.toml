@@ -78,3 +78,17 @@ trust_level = "trusted"
 [projects."/home/gary/git/simplepower"]
 trust_level = "trusted"
 
+[hooks.state]
+
+[hooks.state."/home/gary/.codex/hooks.json:post_tool_use:0:0"]
+trusted_hash = "sha256:f44446926dc78692afccce58209af406273996a2ea493a9da17f048424075e34"
+
+[hooks.state."/home/gary/.codex/hooks.json:pre_compact:0:0"]
+trusted_hash = "sha256:79bdca997edf6b5cbfa440b65b0f134c23402b603eefa227650faea67ea7ab3c"
+
+[hooks.state."/home/gary/.codex/hooks.json:post_compact:0:0"]
+trusted_hash = "sha256:6540e21cdfac94763fcdf7c1b7c7bf8e1cce3106ccac8950dd0bf6a2557fa81d"
+
+[hooks.state."/home/gary/.codex/hooks.json:session_start:0:0"]
+trusted_hash = "sha256:410c54d7ce675837e2ea78f4930b92cc20bcf1bcc2b3692c7b0d98d13b1883d5"
+
