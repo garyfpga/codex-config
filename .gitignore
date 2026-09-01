@@ -53,3 +53,4 @@ mcp-oauth-locks/
 # some other
 thread-writer-locks
 .sandbox_migration
+simplepower-data/
