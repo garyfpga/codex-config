@@ -1,4 +1,4 @@
-avoid doing 2 operations on the same file at the same time.
+avoid doing multiple operations, for example, delete and add on the same file.
 
 # subagent
 1. When spawning a subagent, unless otherwise specified, use 5.6-luna-max.
