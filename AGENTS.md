@@ -1,3 +1,5 @@
+avoid doing 2 operations on the same file at the same time.
+
 # subagent
 1. When spawning a subagent, unless otherwise specified, use 5.6-luna-max.
 2. When spawning a subagent with a different model or reasoning effort, always pass `fork_turns="none"` in v2, or `fork_context=false` in v1.
