@@ -21,6 +21,9 @@ remote_connections = true
 hide_spawn_agent_metadata = false
 tool_namespace = "agents"
 
+[features.context_management]
+experimental_mode = true
+
 [tui]
 alternate_screen = "never"
 status_line = ["weekly-limit", "model-with-reasoning", "context-used", "current-dir", "run-state", "context-window-size", "five-hour-limit", "codex-version", "fast-mode"]
