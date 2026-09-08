@@ -1,4 +1,4 @@
 [submodule "simplepower"]
 	path = simplepower
 	url = git@github.com:garyfpga/simplepower.git
-	branch = feature/skip-quick-verifier
+	branch = fix/adaptive-plan-deviations
