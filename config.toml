@@ -29,15 +29,17 @@ alternate_screen = "never"
 status_line = ["weekly-limit", "model-with-reasoning", "context-used", "current-dir", "run-state", "context-window-size", "five-hour-limit", "codex-version", "fast-mode"]
 status_line_use_colors = true
 session_picker_view = "dense"
+auto_recap = false
 
 [tui.keymap.editor]
 insert_newline = ["ctrl-j", "ctrl-m", "enter", "shift-enter", "alt-enter"]
 
 [tui.model_availability_nux]
 "gpt-5.5" = 4
+"gpt-5.6-luna" = 4
 "gpt-5.6-sol" = 4
 "gpt-5.6-terra" = 4
-"gpt-5.6-luna" = 4
+gpt-6-astra = 4
 
 [agents]
 max_concurrent_threads_per_session = 30
