@@ -3,6 +3,7 @@ model_provider = "deepseek"
 model_reasoning_effort = "max"
 web_search = "disabled"
 model_catalog_json = "/home/gary/.codex/ds.models.json"
+plan_mode_reasoning_effort = "max"
 
 [model_providers.deepseek]
 name = "deepseek"
