@@ -1,0 +1,11 @@
+model = "deepseek-flash"
+model_provider = "deepseek"
+model_reasoning_effort = "max"
+web_search = "disabled"
+model_catalog_json = "/home/gary/.codex/ds.models.json"
+
+[model_providers.deepseek]
+name = "deepseek"
+base_url = "https://api.deepseek.com/"
+env_key = "DEEPSEEK_API_KEY"
+wire_api = "responses"
