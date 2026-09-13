@@ -27,3 +27,5 @@ avoid doing multiple operations, for example, delete and add on the same file.
   ```
 - xmake's `fastest` maps to `-O3` for GCC/Clang/NVCC. Do not use `aggressive`/`-Ofast` as the default unless explicitly requested for a specific target.
 
+# Long-running commands
+- For long-running commands, avoid frequent status checks. When polling a running command, use `write_stdin` with `yield_time_ms: 600000` and check sooner only when earlier output is needed.
