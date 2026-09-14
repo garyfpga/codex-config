@@ -19,6 +19,11 @@ remote_connections = true
 [features.multi_agent_v2]
 hide_spawn_agent_metadata = false
 tool_namespace = "agents"
+enabled = true
+wait_agent_enabled = true
+min_wait_timeout_ms = 600000
+default_wait_timeout_ms = 1500000
+max_wait_timeout_ms = 3600000
 
 [tui]
 #alternate_screen = "never"
