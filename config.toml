@@ -2,14 +2,21 @@ approval_policy = "never"
 approvals_reviewer = "user"
 sandbox_mode = "danger-full-access"
 dangerously_trust_all_projects = true
-model = "gpt-5.6-terra"
-model_reasoning_effort = "xhigh"
-plan_mode_reasoning_effort = "medium"
+model = "gpt-6-astra"
+model_reasoning_effort = "max"
+plan_mode_reasoning_effort = "high"
 model_verbosity = "low"
 model_reasoning_summary = "none"
 background_terminal_max_timeout = 600000
 
 service_tier = "default"
+
+[model_providers.opencode]
+name = "OpenCode Go"
+base_url = "https://opencode.ai/zen/go/v1"
+env_key = "OPENCODE_KEY"
+wire_api = "responses"
+requires_openai_auth = false
 
 [features]
 hooks = true
@@ -89,6 +96,9 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [projects."/home/gary/git/codex"]
+trust_level = "trusted"
+
+[projects."/home/gary/git/cffex-cert"]
 trust_level = "trusted"
 
 [hooks.state]
