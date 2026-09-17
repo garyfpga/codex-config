@@ -1,4 +1,4 @@
-model = "deepseek-flash"
+model = "deepseek-v4.1-flash"
 model_provider = "deepseek"
 model_reasoning_effort = "max"
 web_search = "disabled"

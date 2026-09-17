@@ -1,7 +1,7 @@
 {
   "models": [
     {
-      "slug": "deepseek-flash",
+      "slug": "deepseek-v4.1-flash",
       "prefer_websockets": false,
       "support_verbosity": true,
       "default_verbosity": "low",
