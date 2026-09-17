@@ -5,13 +5,8 @@ web_search = "disabled"
 model_catalog_json = "/home/gary/.codex/ds.models.json"
 plan_mode_reasoning_effort = "max"
 
-model_context_window = 1000000
-model_auto_compact_token_limit = 900000
-
 [model_providers.deepseek]
-name = "OpenCode Go"
-base_url = "https://opencode.ai/zen/go/v1"
-env_key = "OPENCODE_KEY"
+name = "deepseek"
+base_url = "https://api.deepseek.com/"
+env_key = "DEEPSEEK_API_KEY"
 wire_api = "responses"
-requires_openai_auth = false
-
